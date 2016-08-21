@@ -164,9 +164,6 @@ body {
 @media only screen and (max-width: 960px) {
   .navbar {
     display: none; } }
-@media only screen and (min-width: 768px) {
-  .onBackground {
-    text-align: center; } }
 #one {
   height: 1700px;
   background-color: white; }
@@ -549,5 +546,133 @@ body {
     color: white; }
   .contacts i {
     color: #19C5FF; }
+
+.slider .people-first {
+  animation: myPicAni 1s 1;
+  animation-play-state: paused; }
+@keyframes myPicAni {
+  0% {
+    transform: translateX(-700px); }
+  80% {
+    transform: translateX(20px); }
+  100% {
+    transform: translateX(0px); } }
+.people-second {
+  animation: myTxtAni 1s 1; }
+@keyframes myTxtAni {
+  0% {
+    transform: translateX(700px); }
+  80% {
+    transform: translateX(-20px); }
+  100% {
+    transform: translateX(0px); } }
+.left-anim {
+  animation: leftAni 2s 1;
+  animation-play-state: paused; }
+
+@keyframes leftAni {
+  0% {
+    transform: translateX(-1000px); }
+  80% {
+    transform: translateX(20px); }
+  100% {
+    transform: translateX(0px); } }
+.right-anim {
+  animation: rightAni 2s 1; }
+
+@keyframes rightAni {
+  0% {
+    transform: translateX(1000px); }
+  80% {
+    transform: translateX(-20px); }
+  100% {
+    transform: translateX(0px); } }
+#helmet .helmet-left {
+  animation: helmetLeft 3s 1; }
+@keyframes helmetLeft {
+  0% {
+    transform: translateX(-1500px); }
+  80% {
+    transform: translateX(30px); }
+  100% {
+    transform: translateX(0px); } }
+#helmet .helmet-right {
+  animation: helmetRight 3s 1; }
+@keyframes helmetRight {
+  0% {
+    transform: translateX(1500px); }
+  80% {
+    transform: translateX(-30px); }
+  100% {
+    transform: translateX(0px); } }
+#two .laptop {
+  animation: laptopBottom 3s 1; }
+@keyframes laptopBottom {
+  0% {
+    transform: translateY(1600px); }
+  80% {
+    transform: translateY(-30px); }
+  100% {
+    transform: translateY(0px); } }
+.featuresRight {
+  animation: featuresRight 4s 1; }
+
+@keyframes featuresRight {
+  0% {
+    transform: translateX(1700px); }
+  80% {
+    transform: translateX(-30px); }
+  100% {
+    transform: translateX(0px); } }
+#featuresLeft {
+  animation: featuresLeft 4s 1; }
+
+@keyframes featuresLeft {
+  0% {
+    transform: translateX(-1700px); }
+  80% {
+    transform: translateX(30px); }
+  100% {
+    transform: translateX(0px); } }
+.getLeft {
+  animation: getLeft 4s 1; }
+
+@keyframes getLeft {
+  0% {
+    transform: translateX(-1900px); }
+  80% {
+    transform: translateX(30px); }
+  100% {
+    transform: translateX(0px); } }
+.getRight {
+  animation: getRight 4s 1; }
+
+@keyframes getRight {
+  0% {
+    transform: translateX(1900px); }
+  80% {
+    transform: translateX(-30px); }
+  100% {
+    transform: translateX(0px); } }
+.productsTop {
+  animation: products 3s 1; }
+
+@keyframes products {
+  0% {
+    transform: translateY(2000px); }
+  80% {
+    transform: translateY(-30px); }
+  100% {
+    transform: translateY(0px); } }
+.ourAwards {
+  animation: ourAwards 3s 1; }
+
+@keyframes ourAwards {
+  0% {
+    transform: translateY(0px); }
+  80% {
+    transform: translateY(30px); }
+  100% {
+    transform: translateY(2000px); } }
 
 /*# sourceMappingURL=style.css.map */
