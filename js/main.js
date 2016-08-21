@@ -50,65 +50,65 @@ $(document).ready(function(){
 //behind the scenes slide  ends
 
 // team members starts
-$(document).ready(function(){
-    $("#team-member").animate({
-    bottom: '10px'
+// $(document).ready(function(){
+//     $("#team-member").animate({
+//     bottom: '10px'
     
-    })
-    $("#team-member").animate({
-    top: '10px'
-    })
-    $("#team-member").animate({
-    bottom: '10px'
+//     })
+//     $("#team-member").animate({
+//     top: '10px'
+//     })
+//     $("#team-member").animate({
+//     bottom: '10px'
     
-    })
-    });
+//     })
+//     });
     
     
-    $(document).ready(function(){
-    $(".team-member1").animate({
-    bottom: '10px'
+//     $(document).ready(function(){
+//     $(".team-member1").animate({
+//     bottom: '10px'
     
-    })
-    $(".team-member1").animate({
-    top: '10px'
-    })
-    $(".team-member1").animate({
-    bottom: '10px'
+//     })
+//     $(".team-member1").animate({
+//     top: '10px'
+//     })
+//     $(".team-member1").animate({
+//     bottom: '10px'
     
-    })
-    });
+//     })
+//     });
    
   
     
-    $(document).ready(function(){
-    $(".team-member2").animate({
-    bottom: '10px'
+//     $(document).ready(function(){
+//     $(".team-member2").animate({
+//     bottom: '10px'
     
-    })
-    $(".team-member2").animate({
-    top: '10px'
-    })
-    $(".team-member2").animate({
-    bottom: '10px'
+//     })
+//     $(".team-member2").animate({
+//     top: '10px'
+//     })
+//     $(".team-member2").animate({
+//     bottom: '10px'
     
-    })
-    });
+//     })
+//     });
 
     
-    $(document).ready(function(){
-    $(".team-member3").animate({
-    bottom: '10px'
+//     $(document).ready(function(){
+//     $(".team-member3").animate({
+//     bottom: '10px'
     
-    })
-    $(".team-member3").animate({
-    top: '10px'
-    })
-    $(".team-member3").animate({
-    bottom: '10px'
-   }) 
-    });
-// team members ends
+//     })
+//     $(".team-member3").animate({
+//     top: '10px'
+//     })
+//     $(".team-member3").animate({
+//     bottom: '10px'
+//    }) 
+//     });
+// // team members ends
 
             jQuery("document").ready(function($){
             
