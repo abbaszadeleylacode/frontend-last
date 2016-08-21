@@ -4,49 +4,70 @@
     .header h2{
     	text-align:center;
     	color: black;
+    	font-size: 45px;
     }
     span{
     	color: $colorBlue;
     }
     p{
     	text-align:center;
-    	line-height: 20px;
+    	line-height: 22px;
     }
-    // .team-member{
-    // 		margin-top:50px;
-    // 	    width: 230px;
-		  //   height: 110px;
-		  //   display: none;
-    // }
-    // h5{
-    // 	padding-left:80px;
-    // 	font-size:22px;
-    // 	color: $colorBlue;
-    // }
+    .team-member, .team-member1, .team-member2, .team-member3{
+    	    width: 230px;
+		    height: 110px;
+	
+    }
+    h5{
+    	padding-left:80px;
+    	font-size:22px;
+    	color: $colorBlue;
+    }
 }
 #team-member{
-	background:#98bf21;
-	height:100px;
+	background:red;
+	height:200px;
 	width:100px;
 	position:absolute;
 
+}
+.developers{
+	margin-top:50px;
+}
 
-.text-container{
+.text-container,.text-container1,.text-container2,.text-container3{
 	display:none;
 	width: 264px;
-	height: 268px;
-	border: 1px solid gray;
-	    z-index: -1;
-	    position:absolute;
-
-
+	height: 262px;
+	margin-top:10px;
+	z-index: 1;
+	position:absolute;
+	background-color:$colorBlue;
+	transition: all 1s ease;
+	opacity: 0.8;
+	
+	 p{
+	 	padding: 50px 20px;
+	 	color: white;
+	 }
+	 ul{
+	 	margin-left: -20px;
+	 }
+	 ul li{
+	 	float: left;
+	 	list-style: none;
+	 	padding: 2px 7px 2px 7px;
+	 	border: 1px solid white;
+	 	margin-left: 15px;
+	 }
+	 ul li a{
+	 	color:white;
+	 }
 }
-}
-
-
 #launch{
 	height:137px;
 	background-color: $colorBlue;
+	margin-top:-85px;
 	h2{
 		color: white;
 		font-size: 45px;
@@ -60,16 +81,20 @@
 	h4{
 		text-transform: uppercase;
 		border: 1px solid white;
-		font-size: 17px;
-		width: 220px;
+		font-size: 15px;
+		width: 200px;
 		height: 40px;
 		margin-top: 40px;
 		color: white;
 		padding-top: 10px;
 		padding-left: 19px;
+		border-radius: 2px;
 	}
 	h4:hover{
 		background-color: white;
 		color: $colorBlue;
-		cursor: pointer;	}
+		cursor: pointer;	
+		transition: 0.5s;
+
+	}
 }

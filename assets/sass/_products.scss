@@ -1,5 +1,132 @@
 #three{
-	height:800px;
+	height:1200px;
 	background:white;
+	p{
+		text-align: center;
+	}
+
+.col-md-6{
+text-align:center;
+margin-top:70px;
+span{
+	color:$colorBlue;
 }
-  
+p{
+	line-height: 25px;
+}
+h1{
+	font-size:40px;
+}
+}
+
+.individual{
+		width: 361px;
+		height: 596px;
+		background-color:#F8F8F8;
+		float:left;
+		margin-left: 70px;
+
+	}
+	.package-title{
+		font-size: 28px;
+		color:$colorGrayshade;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.package-price{
+		font-size: 90px;
+		color:$colorGrayshade;
+		text-align: center;
+		background-color: $colorGray;
+	}
+	.per{
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.dollar{
+		font-size: 30px;
+	}
+	.package-detail{
+		text-align: center;
+		li{
+			color: $colorGrayshade;
+		}
+		li:first-child{
+			padding-top: 35px;
+		}
+		hr{
+			width: 70%;
+		}
+	}
+	.button{
+		border: 1px solid $colorGrayshade;
+		width: 250px;
+		height: 47px;
+		margin-left: 52px;
+		font-size: 19px;
+		color:$colorGrayshade;
+
+	}
+	.studio{
+		width: 361px;
+		height: 596px;
+		background-color:#F8F8F8;
+		margin-left: 27px;
+
+	}
+		.enterprise{
+		width: 361px;
+		height: 596px;
+		background-color:#F8F8F8;
+		margin-left: -13px;
+
+	}
+.studio:hover{
+	background-color:$colorBlue;
+.package-title{
+	color:white;
+}
+.package-detail{
+	color:white;
+}
+a{
+	color:white;
+}
+	.package-price{
+		background-color:#23ADDB;
+		color:white;
+}
+li,strong,hr{
+	color:white;
+	}
+}
+.enterprise:hover{
+	background-color:$colorBlue;
+.package-title{
+	color:white;
+}
+.package-detail{
+	color:white;
+}
+a{
+	color:white;
+}
+	.package-price{
+		background-color:#23ADDB;
+		color:white;
+}
+li,strong,hr{
+	color:white;
+	}
+}
+#logo2{
+    .logo1,.logo2,.logo3,.logo4,.logo5{
+    text-align: center;
+    float: left;
+    padding: 10px;
+    width: 175px;
+    height: 110px;
+    display: none;
+    }
+}
+}
