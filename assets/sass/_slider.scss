@@ -1,7 +1,6 @@
 .slider{
 	.people-first{
 		animation: myPicAni 1s 1;
-		animation-play-state: paused; 
 	}
 	@keyframes myPicAni{
 		0%{
@@ -32,8 +31,7 @@
 } 
 // ------------------------------------
 .left-anim{
-	animation: leftAni 2s 1;
-		animation-play-state: paused; 
+	animation: leftAni 2s 1; 
 	}
 	@keyframes leftAni{
 		0%{
@@ -94,6 +92,9 @@
 			transform: translateX(0px);
 		}
 	}
+}
+#laptop1{
+	overflow: hidden;
 }
 #two {
 	.laptop{
@@ -178,8 +179,11 @@
 		}
 }
 // products top scroll
+.awardsOverflow{
+	overflow:hidden;
+}
 .productsTop{
-		animation: products 3s 1;
+		animation: products 4s 1;
 	}
 	@keyframes products{
 		0%{
@@ -193,23 +197,29 @@
 		}
 	}
 	// our awarda
+	.awardsOverflow{
+		overflow: hidden;
+	}
+	.hidden{
+		overflow: hidden;
+	}
 	.ourAwards{
-		animation: ourAwards 3s 1;
+		animation: ourAwards 5s 1;
 	}
 	@keyframes ourAwards{
 		0%{
-			transform: translateY(0px);
+			transform: translateY(-2000px);
 		}
 		80%{
-			transform: translateY(30px);
+			transform: translateY(-30px);
 		}
 		100%{
-			transform: translateY(2000px);
+			transform: translateY(0px);
 		}
 	}
 	// members
 	.memberOneAnim{
-				animation: memberOneAnim 3s 1;
+				animation: memberOneAnim 5s 1;
 	}
 	@keyframes memberOneAnim{
 		0%{

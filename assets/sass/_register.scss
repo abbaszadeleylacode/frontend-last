@@ -1,0 +1,44 @@
+#register30Day{
+	span{
+		color: $colorBlue;
+	}
+	h3{
+		border:none;
+	}
+
+}
+#anket{
+		.anket{
+		width: 559px;
+		height: 509px;
+		background-color: $colorGray;
+	}
+	input{
+		width: 359px;
+		height: 45px;
+		border-left: 3px solid $colorBlue;
+	}
+	h6{
+		font-size: 14px;
+	}
+	input:last-child{
+     width: 20px;
+     height: 20px;
+	}
+	
+ p{
+ 	background-color: $colorBlue;
+ 	width: 213px;
+ 	height: 62px;
+ 	border-radius: 3px;
+ 	font-size: 23px;
+ 	padding-left: 40px;
+ }
+ h6:last-child{
+ 	font-size:15px;
+ 	color: white;
+ }
+}
+
+
+

@@ -2,9 +2,6 @@
   display: none;
   background-color: blue; }
 
-* {
-  box-sizing: border-box; }
-
 body {
   background-image: url("../../images/background.jpg");
   background-attachment: fixed;
@@ -548,8 +545,7 @@ body {
     color: #19C5FF; }
 
 .slider .people-first {
-  animation: myPicAni 1s 1;
-  animation-play-state: paused; }
+  animation: myPicAni 1s 1; }
 @keyframes myPicAni {
   0% {
     transform: translateX(-700px); }
@@ -567,8 +563,7 @@ body {
   100% {
     transform: translateX(0px); } }
 .left-anim {
-  animation: leftAni 2s 1;
-  animation-play-state: paused; }
+  animation: leftAni 2s 1; }
 
 @keyframes leftAni {
   0% {
@@ -605,6 +600,9 @@ body {
     transform: translateX(-30px); }
   100% {
     transform: translateX(0px); } }
+#laptop1 {
+  overflow: hidden; }
+
 #two .laptop {
   animation: laptopBottom 3s 1; }
 @keyframes laptopBottom {
@@ -654,8 +652,11 @@ body {
     transform: translateX(-30px); }
   100% {
     transform: translateX(0px); } }
+.awardsOverflow {
+  overflow: hidden; }
+
 .productsTop {
-  animation: products 3s 1; }
+  animation: products 4s 1; }
 
 @keyframes products {
   0% {
@@ -664,18 +665,24 @@ body {
     transform: translateY(-30px); }
   100% {
     transform: translateY(0px); } }
+.awardsOverflow {
+  overflow: hidden; }
+
+.hidden {
+  overflow: hidden; }
+
 .ourAwards {
-  animation: ourAwards 3s 1; }
+  animation: ourAwards 5s 1; }
 
 @keyframes ourAwards {
   0% {
-    transform: translateY(0px); }
+    transform: translateY(-2000px); }
   80% {
-    transform: translateY(30px); }
+    transform: translateY(-30px); }
   100% {
-    transform: translateY(2000px); } }
+    transform: translateY(0px); } }
 .memberOneAnim {
-  animation: memberOneAnim 3s 1; }
+  animation: memberOneAnim 5s 1; }
 
 @keyframes memberOneAnim {
   0% {
@@ -684,5 +691,33 @@ body {
     transform: translateY(30px); }
   100% {
     transform: translateY(0px); } }
+#register30Day span {
+  color: #19C5FF; }
+#register30Day h3 {
+  border: none; }
+
+#anket .anket {
+  width: 559px;
+  height: 509px;
+  background-color: #F0F0F0; }
+#anket input {
+  width: 359px;
+  height: 45px;
+  border-left: 3px solid #19C5FF; }
+#anket h6 {
+  font-size: 14px; }
+#anket input:last-child {
+  width: 20px;
+  height: 20px; }
+#anket p {
+  background-color: #19C5FF;
+  width: 213px;
+  height: 62px;
+  border-radius: 3px;
+  font-size: 23px;
+  padding-left: 40px; }
+#anket h6:last-child {
+  font-size: 15px;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
